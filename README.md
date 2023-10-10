@@ -17,6 +17,14 @@ gcc -g test.cxx -o test -L/home/ec2-user/code/libzmq/build/lib -I /home/ec2-user
 export LD_LIBRARY_PATH=/home/ec2-user/code/libzmq/build/lib; ./test
 ```
 
+# debug gdb
+```
+export LD_LIBRARY_PATH=/home/ec2-user/code/libzmq/build/lib; gdb ./test
+
+b zmq::session_base_t::engine_error
+
+```
+
 
 ```
 # set to 40000 41000
