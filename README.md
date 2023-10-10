@@ -9,7 +9,7 @@ export LD_LIBRARY_PATH=/home/ec2-user/code/libzmq/build/lib; ./test
 
 ```
 # set to 40000 41000
-sudo vim /etc/sysctl.conf
+sudo vim /etc/sysctl.conf   (add line net.ipv4.ip_local_port_range = 40000 41000)
 sudo sysctl -p /etc/sysctl.conf .
 sysctl net.ipv4.ip_local_port_range
 
