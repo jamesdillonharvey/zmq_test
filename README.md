@@ -3,6 +3,10 @@
 # libzmq
 
 ```
+# fork lib
+# clone
+# make branch
+
 mkdir build
 cd build
 cmake -DCMAKE_BUILD_TYPE=Debug
