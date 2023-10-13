@@ -3,9 +3,7 @@
 # libzmq
 
 ```
-# fork lib
-# clone
-# make branch
+
 
 mkdir build
 cd build
